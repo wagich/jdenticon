@@ -1,11 +1,14 @@
 {
-  "name": "jdenticon",
-  "version": "3.0.1",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
+	},
+  "name": "@wagich/jdenticon",
+  "version": "3.0.2",
   "description": "Javascript identicon generator",
   "main": "dist/jdenticon-node.js",
   "exports": {
     "node": {
-    "require": "./dist/jdenticon-node.js",
+      "require": "./dist/jdenticon-node.js",
       "import": "./dist/jdenticon-node.mjs"
     },
     "browser": {
@@ -76,7 +79,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dmester/jdenticon"
+    "url": "https://github.com/wagich/jdenticon"
   },
   "bugs": {
     "url": "https://github.com/dmester/jdenticon/issues"
